@@ -7,13 +7,14 @@
  */
 int main(void)
 {
-int num = 0;
+char num, new_line;
 
-while (num < 10)
+new_line = '\n';
+for (num = '0' ; num <= '9' ; num++)
 {
-printf("%d\n", num);
-num++;
+putchar(num);
 }
+putchar(new_line);
 
 return (0);
 }
