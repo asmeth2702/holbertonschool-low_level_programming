@@ -8,7 +8,7 @@
 int main(void)
 {
 int num, new_line;
-char *str = "0123456789abcdef";  
+char *str = "0123456789abcdef";
 
 new_line = '\n';
 for (num = 0 ; num <= 15 ; num++)
