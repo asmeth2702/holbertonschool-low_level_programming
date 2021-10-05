@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- *_putchar - writes the character c to stdout
- *print_alphabet - Print alphabet
  *
- *Return: Always 0 (success)
+ *print_alphabet - From a-z
+ *
+ *Return: Nothing.
  */
 void print_alphabet(void)
 {
