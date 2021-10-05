@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - a function that prints 10 times the alphabet, in lowercase
+ * print_alphabet_x10 - a function that prints  * 10 times the alphabet, in lowercase
  *
- *Return: Always 0 (success)
+ * Return: Always 0 (success)
  */
 void print_alphabet_x10(void)
 {
 int ax10 = 0, a;
 
-while (ax10 <= 10)
+while (ax10 <= 9)
 {
 for (a = 'a' ; a <= 'z' ; a++)
 {
