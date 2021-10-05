@@ -10,7 +10,7 @@ char *str;
 int p;
 
 str = "_putchar";
-for (p = 0; p < 9; p++)
+for (p = 0; p < 8; p++)
 {
 _putchar(str[p]);
 }
