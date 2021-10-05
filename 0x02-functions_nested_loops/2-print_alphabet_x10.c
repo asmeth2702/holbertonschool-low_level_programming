@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - a function that prints 10 times the alphabet, in lowercase
  *
  *Return: Always 0 (success)
  */
@@ -12,7 +12,7 @@ while (ax10 <= 10)
 {
 for (a = 'a' ; a <= 'z' ; a++)
 {
-putchar(a);
+_putchar(a);
 }
 ax10++;
 _putchar('\n');
