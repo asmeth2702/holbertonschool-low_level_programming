@@ -11,14 +11,14 @@ if (n < 98)
 {
 for (n = n ; n < 98 ; n++)
 printf("%d, ", n);
-printf("98");
+printf("98\n");
 }
 else if (n > 98)
 {
 for (n = n ; n > 98 ; n--)
 printf("%d, ", n);
-printf("98");
+printf("98\n");
 }
 else
-printf("98");
+printf("98\n");
 }
